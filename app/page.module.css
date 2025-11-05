@@ -1,0 +1,355 @@
+#window {
+  background: linear-gradient(0deg,rgba(43, 63, 97, 1) 0%, rgba(68, 111, 148, 1) 50%, rgba(78, 135, 181, 1) 100%);
+  height: 400px;
+  width: 275px;
+  z-index: 1;
+  position: fixed;
+  bottom: 330px;
+  left: 150px;
+  border-radius: 2px;
+}
+
+#window2 {
+  background: linear-gradient(0deg,rgba(43, 63, 97, 1) 0%, rgba(68, 111, 148, 1) 50%, rgba(78, 135, 181, 1) 100%);
+  height: 400px;
+  width: 275px;
+  z-index: 1;
+  position: fixed;
+  bottom: 330px;
+  right: 150px;
+  border-radius: 2px;
+}
+
+#floor {
+  background-color: #654C39;
+  height: 210px;
+  width: 100vw;
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+}
+
+#background {
+  background-color: #C0A88A;
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#toysBackground {
+    background-color: #8E9EC5;
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#rug {
+  background-color: #772121;
+  z-index: 2;
+  border-radius: 50%;
+  width: 38%;
+  height: 20%;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+  margin: 0;
+}
+
+#trunk {
+  background-color: #48362D;
+  z-index: 3;
+  width: 85px;
+  height: 162px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 125px;
+  margin: 0;
+}
+
+#tree1 {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 285px;
+  z-index: 5;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 202px 222px 202px;
+  border-color: transparent transparent #2E622B transparent;
+  margin: 0;
+}
+
+#tree2 {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 410px;
+  z-index: 6;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 182px 202px 182px;
+  border-color: transparent transparent #3a7737 transparent;
+  margin: 0;
+}
+
+#tree3 {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 535px;
+  z-index: 7;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 162px 182px 162px;
+  border-color: transparent transparent #458842 transparent;
+  margin: 0;
+}
+
+#toys {
+  position: fixed;
+  bottom: 180px;
+  left: 590px;
+  z-index: 100;
+  width: 100px;
+  height: 40px;
+  background-color: #5789C7;
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#toys:hover {
+  background-color: #3d6da8;
+  transform: rotate(-5deg);
+}
+
+#clothes {
+  position: fixed;
+  bottom: 90px;
+  left: 575px;
+  z-index: 100;
+  width: 150px;
+  height: 60px;
+  background-color: #CF48A6;
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#clothes:hover {
+  background-color: #b4378f;
+  transition: ease;
+  transform: rotate(6deg);
+}
+
+#misc {
+  position: fixed;
+  bottom: 110px;
+  left: 820px;
+  z-index: 100;
+  width: 120px;
+  height: 60px;
+  background-color: #D37D22;
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#misc:hover {
+  background-color: #bb6c18;
+  transition: ease;
+  transform: rotate(-4deg);
+}
+
+#star {
+  width: 100px;
+  aspect-ratio: 1;
+  background: #F8CA00;
+  clip-path: polygon(50% 0,
+    calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
+    calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 + sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn)))
+  );
+  z-index: 100;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 82px;
+}
+
+#star clipPath {
+  filter: drop-shadow(0 0 14px #ffe066) drop-shadow(0 0 28px #F8CA00);
+}
+
+#lightString {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  pointer-events: none;
+}
+
+#lightString svg path {
+  filter: drop-shadow(0 0 14px #ffe066) drop-shadow(0 0 28px #F8CA00);
+  animation: flicker 2s linear infinite;
+}
+
+@keyframes flicker {
+  0% {
+    opacity:0.9;
+    filter: drop-shadow(0 0 14px #ffe066) drop-shadow(0 0 28px #F8CA00);
+  }
+  5% {
+    opacity:1;
+    filter: drop-shadow(0 0 14px #ffe066) drop-shadow(0 0 28px #F8CA00);
+  }
+  10% {
+    opacity:0.8;
+    filter: drop-shadow(0 0 14px #ffe066) drop-shadow(0 0 28px #F8CA00);
+  }
+  
+  50% {
+    opacity:1;
+    filter: drop-shadow(0 0 14px #ffe066) drop-shadow(0 0 28px #F8CA00);
+  }
+  70% {
+    opacity:0.8;
+    filter: drop-shadow(0 0 14px #ffe066) drop-shadow(0 0 28px #F8CA00);
+  }
+  100% {
+    opacity:1;
+    filter: drop-shadow(0 0 14px #ffe066) drop-shadow(0 0 28px #F8CA00);
+  }
+}
+
+#mainDesk {
+  background-color: #D9D9D9;
+  width: 75%;
+  height: 25%;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#deskLeft {
+  background-color: #D9D9D9;
+  width: 303px;
+  height: 200px;
+  position: fixed;
+  top: 721px;
+  rotate: -45deg;
+}
+
+#deskRight {
+  background-color: #D9D9D9;
+  width: 303px;
+  height: 200px;
+  position: fixed;
+  top: 721px;
+  right: 0px;
+  rotate: 45deg;
+}
+
+#shelf1 {
+  background-color: #D9D9D9;
+  width: 800px;
+  height: 45px;
+  position: fixed;
+  top: 350px;
+  right: 100px;
+}
+
+#shelf2 {
+  background-color: #D9D9D9;
+  width: 800px;
+  height: 45px;
+  position: fixed;
+  top: 200px;
+  left: 100px;
+}
+
+#computerBack {
+  background-color: #9A9A9A;
+  width: 400px;
+  height: 250px;
+  position: fixed;
+  bottom: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  border-radius: 20px;
+}
+
+#computerScreen {
+  background-color: #E3AADF;
+  width: 340px;
+  height: 192px;
+  position: fixed;
+  bottom: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6;
+}
+
+#computerStand {
+  background-color: #8C8989;
+  width: 50px;
+  height: 100px;
+  position: fixed;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+
+#computerStandCircle {
+  background-color: #8C8989;
+  width: 150px;
+  height: 30px;
+  position: fixed;
+  bottom: 70px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+}
