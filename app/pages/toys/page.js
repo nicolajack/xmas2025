@@ -10,10 +10,11 @@ export default function Toys() {
             <Link href="/">
                 <Image
                     src="/arrow (1).png"
+                    id={styles.arrowHover}
                     width={180}
                     height={180}
                     alt="a back arrow"
-                    style={{position: 'fixed', top:"530px", right:"660px", zIndex: 9999}}
+                    style={{position: 'fixed', top:"500px", right:"660px", zIndex: 9999}}
                 />
             </Link>
             <div id={styles.computerStand}></div>
@@ -28,6 +29,7 @@ export default function Toys() {
             <Link href="https://www.popmart.com/us/products/3944/Hirono-Monsters'-Carnival-Series-Figures" target="_blank">
                 <Image
                     src="/toys/zombiehirono.png"
+                    id={styles.toy}
                     width={90}
                     height={100}
                     alt="a zombie hirono figure"
@@ -37,6 +39,7 @@ export default function Toys() {
             <Link href="https://www.popmart.com/us/products/2165/Hirono-Echo-Series-Figures" target="_blank">
                 <Image
                     src="/toys/echohirono.png"
+                    id={styles.toy}
                     width={85}
                     height={100}
                     alt="a sleepy hirono figure"

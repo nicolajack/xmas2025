@@ -353,3 +353,13 @@
   transform: translateX(-50%);
   z-index: 4;
 }
+
+#arrowHover:hover {
+  opacity: .85;
+  transition: ease;
+  transform: scale(1.05);
+}
+
+#toy:hover {
+  transform: scale(1.05);
+}
