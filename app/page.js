@@ -59,7 +59,13 @@ export default function Home() {
             </svg>
         </div>
         <div id={styles.window}></div>
+        <div id={styles.windowBorder}></div>
+        <div id={styles.windowHorizontal}></div>
+        <div id={styles.windowVertical}></div>
         <div id={styles.window2}></div>
+        <div id={styles.window2Border}></div>
+        <div id={styles.window2Horizontal}></div>
+        <div id={styles.window2Vertical}></div>
         <div id={styles.rug}></div>
         <div id={styles.floor}></div>
       </div>
