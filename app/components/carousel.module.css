@@ -92,12 +92,39 @@
   align-items: center;
   justify-content: center;
 }
+.embla__buttons button {
+  background: #897053;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  color: #333;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0 8px;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.embla__buttons button:hover:not(:disabled) {
+  background: #8FB1A2;
+  box-shadow: 0 4px 16px rgba(227, 170, 223, 0.25);
+  transform: scale(1.08);
+}
 .embla__button:disabled {
   color: var(--detail-high-contrast);
 }
+.embla__buttons button:disabled {
+  background: #654C39;
+  color: #aaa;
+  box-shadow: none;
+  cursor: not-allowed;
+}
 .embla__button__svg {
-  width: 35%;
-  height: 35%;
+  width: 30%;
+  height: 30%;
 }
 .embla__selected-snap-display {
   justify-self: flex-end;

@@ -7,10 +7,10 @@ import Snowfall from 'react-snowfall';
 export default function Home() {
   return (
     <div>
-      <div style={{ height: '400px', width: '275px', position: 'fixed', top: "128px", left: "150px", zIndex: 9999, pointerEvents: 'none' }}>
+      <div style={{ height: '400px', width: '275px', position: 'fixed', top: "128px", left: "150px", zIndex: 50, pointerEvents: 'none' }}>
         <Snowfall />
       </div>
-      <div style={{ height: '400px', width: '275px', position: 'fixed', top: "128px", right: "150px", zIndex: 9999, pointerEvents: 'none' }}>
+      <div style={{ height: '400px', width: '275px', position: 'fixed', top: "128px", right: "150px", zIndex: 50, pointerEvents: 'none' }}>
         <Snowfall />
       </div>
       <div id={styles.background}>
