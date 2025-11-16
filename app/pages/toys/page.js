@@ -46,6 +46,7 @@ export default function Toys() {
                     style={{position: 'fixed', top: "107px", left: "195px", zIndex: 9999}}
                 />
             </Link>
+            
         </div>
     );
 }
