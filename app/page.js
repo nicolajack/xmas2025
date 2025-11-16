@@ -16,7 +16,7 @@ export default function Home() {
       <div id={styles.background}>
         <Link href="pages/toys" id={styles.toys}>toys</Link>
         <Link href="pages/clothes" id={styles.clothes}>clothes</Link>
-        <Link href="pages/misc" id={styles.misc}>misc</Link>
+        <Link href="pages/toys" id={styles.misc}>misc</Link>
         <div id={styles.christmasTree}>
           <div id={styles.star}></div>
           <div>
