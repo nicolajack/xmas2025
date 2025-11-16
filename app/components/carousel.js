@@ -11,6 +11,7 @@ import {
 
 const clothesSlides = [
     { src: '/clothes/obeyHoodie.png', type: 'popup', text: 'i love obey hoodies! (u guys know!) please buy them used on sites like depop, mercari, and poshmark, its so much cheaper. i wear M, L, and XL!' },
+    { src: '/clothes/obeyBeanie.png', type: 'link', url: 'https://obeyclothing.com/products/obey-future-beanie-legion-blue?variant=45081401557170' },
     { src: '/clothes/obeyBeanie.png', type: 'link', url: 'https://obeyclothing.com/products/obey-future-beanie-legion-blue?variant=45081401557170' }
 ];
 
