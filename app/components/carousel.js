@@ -12,7 +12,11 @@ import {
 const clothesSlides = [
     { src: '/clothes/obeyHoodie.png', type: 'popup', text: 'i love obey hoodies! (u guys know!) please buy them used on sites like depop, mercari, and poshmark, its so much cheaper. i wear M, L, and XL!' },
     { src: '/clothes/obeyBeanie.png', type: 'link', url: 'https://obeyclothing.com/products/obey-future-beanie-legion-blue?variant=45081401557170' },
-    { src: '/clothes/obeyBeanie.png', type: 'link', url: 'https://obeyclothing.com/products/obey-future-beanie-legion-blue?variant=45081401557170' }
+    { src: '/clothes/dickiesJacket.png', type: 'popop', text: 'i would love this jacket, extra if you can get sadie to embroider something on it! link: https://www.dickies.com/en-us/products/insulated-eisenhower-jacket-dk00tj150db?variant=45194168107196' },
+    { src: 'clothes/', type: 'popup', text: 'a lot of my socks have holes... fun ones or a pack is great!'},
+    { src: 'clothes/', type: 'popup', text: 'i love a fun graphic t! i mainly wear size medium, and i love white, black, heather gray (or anything fun)'},
+    { src: 'clothes/', type: 'popup', text: 'even if its not obey, i love nice, heavy-weight hoodies w/ fun graphics'},
+    { src: 'clothes/', type: 'popup', text: 'im REALLY into waffle-knit shirts (and long sleeves in general)'}
 ];
 
 const EmblaCarousel = (props) => {
