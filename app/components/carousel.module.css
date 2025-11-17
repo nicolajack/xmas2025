@@ -12,11 +12,17 @@
   display: flex;
   touch-action: pan-y pinch-zoom;
   margin-left: calc(var(--slide-spacing) * -1);
+  gap: 32px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .embla__slide {
   transform: translate3d(0, 0, 0);
-  flex: 0 0 var(--slide-size);
-  min-width: 0;
+  flex: 0 0 auto;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-left: var(--slide-spacing);
 }
 .embla__slide:nth-child(1) {
@@ -131,4 +137,9 @@
   align-self: center;
   color: var(--text-low-contrast);
   font-weight: 600;
+}
+.embla__slide__img {
+  width: 200px;
+  height: auto;
+  border-radius: 16px;
 }

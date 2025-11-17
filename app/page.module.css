@@ -521,3 +521,9 @@
   position: fixed;
   transform: scaleX(-1);
 }
+
+#poster {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  z-index: 5;
+}

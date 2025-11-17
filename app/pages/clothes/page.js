@@ -14,6 +14,11 @@ export default function Clothes() {
             </div>
             <div id={styles.cabinetDoorLeft}></div>
             <div id={styles.cabinetDoorRight}></div>
+            <Image src={'/clothes/simsPoster.jpg'} alt={'poster'} height={110} width={80} id={styles.poster} style={{ position: 'fixed', left: '50px', top: '100px' }}/>
+            <Image src={'/clothes/smiskiPoster.jpg'} alt={'poster'} height={110} width={80} id={styles.poster} style={{ position: 'fixed', left: '250px', top: '330px' }}/>
+            <Image src={'/clothes/btsPoster.jpg'} alt={'poster'} height={80} width={110} id={styles.poster} style={{ position: 'fixed', left: '170px', top: '200px' }}/>
+            <Image src={'/clothes/bearPoster.jpg'} alt={'poster'} height={110} width={80} id={styles.poster} style={{ position: 'fixed', right: '100px', top: '150px' }}/>
+            <Image src={'/clothes/clairoPoster.jpg'} alt={'poster'} height={110} width={80} id={styles.poster} style={{ position: 'fixed', right: '200px', top: '250px' }}/>
         </div>
     );
 }
