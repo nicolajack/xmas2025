@@ -1,6 +1,7 @@
 import styles from "../../page.module.css";
 import Image from 'next/image';
 import EmblaCarousel from '../../components/carousel.js';
+import Link from 'next/link';
 
 export default function Clothes() {
     return (
@@ -19,6 +20,9 @@ export default function Clothes() {
             <Image src={'/clothes/btsPoster.jpg'} alt={'poster'} height={80} width={110} id={styles.poster} style={{ position: 'fixed', left: '170px', top: '200px' }}/>
             <Image src={'/clothes/bearPoster.jpg'} alt={'poster'} height={110} width={80} id={styles.poster} style={{ position: 'fixed', right: '100px', top: '150px' }}/>
             <Image src={'/clothes/clairoPoster.jpg'} alt={'poster'} height={110} width={80} id={styles.poster} style={{ position: 'fixed', right: '200px', top: '250px' }}/>
+            <Link href="/">
+                <Image src={'/clothes/arrowPoster.png'} alt={'poster'} height={80} width={110} id={styles.poster} style={{ position: 'fixed', right: '60px', top: '300px' }}/>
+            </Link>
         </div>
     );
 }
