@@ -13,7 +13,7 @@
   border: 10px solid #ffffff;
   height: 390px;
   width: 265px;
-  z-index: 101;
+  z-index: 2;
   position: fixed;
   bottom: 330px;
   left: 150px;
@@ -25,7 +25,7 @@
   height: 10px;
   bottom: 520px;
   left: 150px;
-  z-index: 101;
+  z-index: 3;
   position: fixed;
 }
 
@@ -35,7 +35,7 @@
   height: 400px;
   bottom: 330px;
   left: 287px;
-  z-index: 101;
+  z-index: 3;
   position: fixed;
 }
 
@@ -54,7 +54,7 @@
   border: 10px solid #ffffff;
   height: 390px;
   width: 265px;
-  z-index: 101;
+  z-index: 2;
   position: fixed;
   bottom: 330px;
   right: 150px;
@@ -66,7 +66,7 @@
   height: 10px;
   bottom: 520px;
   right: 150px;
-  z-index: 101;
+  z-index: 3;
   position: fixed;
 }
 
@@ -76,7 +76,7 @@
   height: 400px;
   bottom: 330px;
   right: 287px;
-  z-index: 101;
+  z-index: 3;
   position: fixed;
 }
 
@@ -218,7 +218,7 @@
   padding: 5px;
   text-decoration: none;
   transition: background 0.2s ease, transform 0.2s ease;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, HelveArial, ans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -523,7 +523,33 @@
 }
 
 #poster {
+  border: 10px 2px solid #ffffff;
+  border-radius: 5px;
+  z-index: 5;
+}
+
+#poster2 {
   border: 2px solid #ffffff;
   border-radius: 5px;
   z-index: 5;
+  box-shadow: 0 0 15px rgba(226, 177, 184, 0.5);
+}
+
+#popup {
+  position: fixed;
+  background: rgba(255,255,255,0.95);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-size: 14px;
+  color: #333;
+  min-width: 120px;
+  text-align: center;
+  z-index: 100;
+  font-family: Helvetica, sans-serif;
+  max-width: 180px;
+  word-break: break-word;
+  white-space: pre-line;
+  overflow-wrap: break-word;
 }
